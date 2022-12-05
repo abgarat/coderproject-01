@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tu propuesta | LOVEWORM</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="shortcut icon" href="../resources/images/favicon.jpg" type="image/x-icon" />
+</head>
+
+<body>
+    <style>
+        body {
+            background-image: url("../resources/images/background.jpg");
+            background-attachment: fixed;
+        }
+    </style>
+
+    <header class="encabezado">
+        <div class="encabezado__contenido">
+            <div class="encabezado__contenido-logo"><a href="../index.html"><img src="../resources/images/logo.jpg" width="250" alt="Logo de LOVEWORM" /></a></div>
+            <nav>
+                <ul class="encabezado__contenido-menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./disenos.html">Diseños</a></li>
+                    <li><a href="./propuesta.html">Envianos tu propuesta</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./cuenta.html">Cuenta</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <section class="propuesta">
+                <h1>ENVIANOS TU PROPUESTA</h1>
+                <p class="propuesta__info">
+                    Si tenés en mente algún diseño en particular, completá el siguiente
+                    formulario para hacernos llegar tu propuesta y envianos la imagen
+                    que querés. Solo asegurate de que sea de buena calidad.
+                </p>
+                <div class="propuesta__formulario">
+                    <h2>Formulario</h2>
+                    <form name="formulario" method="get" action="">
+                        <div class="propuesta__formulario-formato">
+                            <div class="propuesta__formulario-formato-input">
+                                <div>
+                                    <p>Nombre completo</p>
+                                    <input type="text" name="nombre">
+                                </div>
+                                                      
+                                <div>
+                                    <p>Dirección de correo electrónico:</p>
+                                    <input type="email" name="email" id="">
+                                </div>
+                            </div>
+            
+                            <div>
+                                <p>Seleccioná un color:</p>
+                                <select name="color" id="">
+                                    <option value="">Seleccioná un color</option>
+                                    <option>Amarillo</option>
+                                    <option>Blanco</option>
+                                    <option>Coral</option>
+                                    <option>Negro</option>
+                                    <option>Rojo</option>
+                                </select>
+                            </div>
+            
+                            <div>
+                                <p>Seleccioná un modelo:</p>
+                                <select name="modelo" id="">
+                                    <option value="">Seleccioná un modelo</option>
+                                    <option>Corto</option>
+                                    <option>Largo</option>
+                                    <option>Regular</option>
+                                </select>
+                            </div>
+            
+                            <div>
+                                <p>Seleccioná un talle:</p>
+                                <select name="talle" id="">
+                                    <option value="">Seleccioná un talle</option>
+                                    <option>XS</option>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                    <option>XL</option>
+                                    <option>XXL</option>
+                                </select>
+                            </div>
+            
+                            <div>
+                                <p>Seleccioná una imagen:</p>
+                                <input type="file" name="imagen" id="">
+                            </div>
+                        </div>
+
+                        <div class="propuesta__formulario-comentarios">
+                            <p><label>Comentarios adicionales: <br /><textarea name="comentarios" cols="100" rows="10"></textarea></label></p>
+                        </div>
+        
+                        <div>
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="pie-pagina"> <!-- acá también podría ponerle un link a ig, tw, etc. / para después -->
+        <small>2022 | LOVEWORM | Todos los derechos reservados</small>
+    </footer>
+
+</body>
+</html>
