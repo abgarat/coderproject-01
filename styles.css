@@ -44,6 +44,7 @@ body {
     list-style-type: none;
     float: right;
     display: flex;
+    margin-right: 50px;
 }
 
 .encabezado__contenido-menu a {
@@ -70,7 +71,7 @@ body {
     background-color: rgb(248, 248, 248, 0.35);
     padding: 100px;
     display: flex;
-    max-width: 1950px;
+    max-width: 100%;
     margin: 20px 50px;
 }
 
@@ -89,6 +90,28 @@ body {
     font-size: 40px;
 }
 
+.hero__contenido-info button {
+    background-color: rgb(194, 177, 159);
+    font-weight: bold;
+    border: none;
+    font-size: 13px;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: 0.2s;
+    margin: 0px 7px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.hero__contenido-info button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 13px 30px 0 rgba(0,0,0,0.19);
+}
+
+.hero__contenido-info a {
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+}
 
 /* PÁGINA DE LOS DISEÑOS DE LA TIENDA */
 .disenos {
@@ -102,7 +125,7 @@ body {
 }
 
 .disenos__contenido {
-    max-width: 1950px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -115,11 +138,11 @@ body {
 .disenos__contenido-imagen img {
     width: 350px;
     height: 350px;
-    transition: all 0.35s;
+    transition: all 0.2s;
 }
 
 .disenos__contenido-imagen img:hover {
-    transform: scale(1.09);
+    transform: scale(1.07);
 }
 
 .disenos__contenido-imagen p {
@@ -129,7 +152,7 @@ body {
 /* PÁGINA PROPUESTA DE LOS CLIENTES */
 .propuesta {
     background-color: rgb(248, 248, 248, 0.35);
-    max-width: 1950px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -177,7 +200,7 @@ body {
 .contacto__contenido {
     display: flex;
     justify-content: space-evenly;
-    max-width: 1950px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -208,7 +231,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 200px;
-    max-width: 1950px;
+    max-width: 100%;
     margin: 0px 180px;
 }
 
@@ -247,6 +270,7 @@ body {
     .encabezado__contenido {
         flex-direction: column;
         background: rgb(248, 248, 248);
+        margin-right: 0px;
     }
 
     /* INDEX */
@@ -290,6 +314,8 @@ body {
     .encabezado__contenido {
         flex-direction: column;
         background: rgb(248, 248, 248);
+        max-width: 576px;
+        margin-right: 0px;
     }
 
     .encabezado__contenido-menu a {
@@ -332,7 +358,6 @@ body {
     }
 
     .disenos__contenido {
-        max-width: 576px;
         display: flex;
         flex-direction: column;
         align-items: center;
