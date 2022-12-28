@@ -1,0 +1,44 @@
+$offwhite-transparent: rgb(248, 248, 248, 0.35);
+
+/* HERO DEL INDEX */
+.hero__contenido {
+    background-color: $offwhite-transparent;
+    padding: 100px;
+    display: flex;
+    max-width: 100%;
+    margin: 20px 50px;
+}
+
+.hero__contenido-video {
+    margin: 30px;
+    width: 720px;
+    height: 400px;
+}
+
+.hero__contenido-info {
+    margin-top: 30px;
+    margin-left: 50px;
+    h1 {
+    font-size: 40px;
+    }
+    button {
+    background-color: rgb(194, 177, 159);
+    font-weight: bold;
+    border: none;
+    font-size: 13px;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: 0.2s;
+    margin: 0px 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 13px 30px 0 rgba(0,0,0,0.19);
+    }
+    a {
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    }
+}

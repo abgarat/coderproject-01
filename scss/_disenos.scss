@@ -1,0 +1,37 @@
+$offwhite-transparent: rgb(248, 248, 248, 0.35);
+
+/* PÁGINA DE LOS DISEÑOS DE LA TIENDA */
+.disenos {
+    font-size: 15px;
+}
+
+.disenos__title {
+    font-size: 40px;
+    text-align: center;
+    background-color: $offwhite-transparent;
+}
+
+.disenos__contenido {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-evenly;
+    justify-items: center;
+    padding: 30px;
+}
+
+.disenos__contenido-imagen {
+    img {
+    width: 350px;
+    height: 350px;
+    transition: all 0.2s;
+    }
+    img:hover {
+    transform: scale(1.07);
+    }
+    p {
+    text-align: center;
+    }
+}

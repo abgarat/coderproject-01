@@ -1,0 +1,65 @@
+$offwhite-transparent: rgb(248, 248, 248, 0.35);
+
+/* FUENTE REGULAR */
+@font-face {
+    font-family: "Heebo";
+    src: url("./resources/fonts/static/Heebo-Regular.ttf");
+    font-style: normal;
+}
+
+/* FUENTE BOLD */
+@font-face {
+    font-family: "Heebo";
+    src: url("./resources/fonts/static/Heebo-Bold.ttf");
+    font-weight: bold;
+}
+
+/* CUERPO DEL SITIO */
+body {
+    font-family: "Heebo";
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* IMAGEN DE FONDO DEL SITIO */
+.background-image {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ENCABEZADO DEL SITIO */
+.encabezado__contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(248,248,248,0.969625350140056) 27%, rgba(200,190,180,0.5718662464985995) 67%);
+    margin: 0 auto;
+}
+
+.encabezado__contenido-menu {
+    list-style-type: none;
+    float: right;
+    display: flex;
+    margin-right: 50px;
+    a {
+    text-decoration: none;
+    color: black;
+    }
+    li {
+    margin: 0 15px;
+    font-weight: bold;
+    }
+}
+
+/* PIE DE PÁGINA DEL SITIO */
+.pie-pagina {
+    font-family: "Heebo";
+    text-align: center;
+    max-width: 1950px;
+    margin: 0 auto;
+    margin-top: auto;
+}

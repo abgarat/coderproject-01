@@ -1,0 +1,40 @@
+$offwhite-transparent: rgb(248, 248, 248, 0.35);
+
+/* PÁGINA PROPUESTA DE LOS CLIENTES */
+.propuesta {
+    background-color: $offwhite-transparent;
+    max-width: 100%;
+    margin: 0 auto;
+    h1 {
+    font-size: 40px;
+    text-align: center;
+    background-color: $offwhite-transparent;
+    }
+}
+
+.propuesta__info {
+    text-align: center;
+}
+
+.propuesta__formulario {
+    background-color: $offwhite-transparent;
+    padding: 2px 20px;
+    margin: 0px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+    p {
+    font-size: 15px;
+    }
+}
+
+.propuesta__formulario-formato {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 43px;
+}
+
+.propuesta__formulario-formato-input input {
+    width: 63%;
+}

@@ -1,0 +1,44 @@
+$offwhite-transparent: rgb(248, 248, 248, 0.35);
+
+/* PÁGINA CUENTA DEL USUARIO */
+.cuenta h1 {
+    font-size: 40px;
+    text-align: center;
+    background-color: $offwhite-transparent;
+}
+
+.cuenta__datos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+    max-width: 100%;
+    margin: 0px 180px;
+}
+
+.cuenta__datos-registro {
+    background-color: $offwhite-transparent;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    h2 {
+        text-align: center;
+    }
+}
+
+.cuenta__datos-registro-input input {
+    width: 57%;
+}
+
+.cuenta__datos-acceso {
+    background-color: $offwhite-transparent;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    h2 {
+        text-align: center;
+    }
+}
+
+.cuenta__datos-acceso-input input {
+    width: 57%;
+}
