@@ -18,6 +18,8 @@ $offwhite-transparent: rgb(248, 248, 248, 0.35);
         width: 500px;
         height: 270px;
         margin: 0px;
+        margin-top: 30px;
+        align-self: center;
     }
     
     .hero__contenido-info {
@@ -25,6 +27,9 @@ $offwhite-transparent: rgb(248, 248, 248, 0.35);
         text-align: center;
         h1 {
         font-size: 31px;
+        }
+        button {
+            font-size: 11px;
         }
     }
 
@@ -70,14 +75,17 @@ $offwhite-transparent: rgb(248, 248, 248, 0.35);
         width: 350px;
         height: 280px;
         margin: 0px;
-        align-self: center;
-    }
+        align-self: center;    }
     
     .hero__contenido-info {
         margin-left: 0px;
         text-align: center;
         h1 {
         font-size: 25px;
+        }
+        button {
+            font-size: 10px;
+            margin: 7px;
         }
     }
 

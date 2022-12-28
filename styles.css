@@ -266,6 +266,8 @@ body {
     width: 500px;
     height: 270px;
     margin: 0px;
+    margin-top: 30px;
+    align-self: center;
   }
   .hero__contenido-info {
     margin-left: 0px;
@@ -273,6 +275,9 @@ body {
   }
   .hero__contenido-info h1 {
     font-size: 31px;
+  }
+  .hero__contenido-info button {
+    font-size: 11px;
   }
   /* PÁGINA DE DISEÑOS */
   .disenos__title {
@@ -318,6 +323,10 @@ body {
   }
   .hero__contenido-info h1 {
     font-size: 25px;
+  }
+  .hero__contenido-info button {
+    font-size: 10px;
+    margin: 7px;
   }
   /* PÁGINA DE DISEÑOS */
   .disenos {
