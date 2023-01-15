@@ -74,3 +74,11 @@ body {
     margin: 0 auto;
     margin-top: auto;
 }
+
+.pie-pagina__iconos {
+    display: flex;
+    justify-content: center;
+    li {
+    text-decoration: none;
+    }
+}

@@ -24,6 +24,10 @@ $offwhite-transparent: rgb(248, 248, 248, 0.35);
         text-align: center;
     }
 }
+  
+.cuenta__datos-registro__boton {
+    padding-top: 5px;
+}
 
 .cuenta__datos-registro-input input {
     width: 57%;
@@ -37,6 +41,10 @@ $offwhite-transparent: rgb(248, 248, 248, 0.35);
     h2 {
         text-align: center;
     }
+}
+
+.cuenta__datos-acceso__boton {
+    padding-top: 5px;
 }
 
 .cuenta__datos-acceso-input input {

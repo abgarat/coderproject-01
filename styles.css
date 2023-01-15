@@ -115,6 +115,14 @@
   width: 57%;
 }
 
+.cuenta__datos-acceso__boton {
+  padding-top: 5px;
+}
+
+.cuenta__datos-registro__boton {
+  padding-top: 5px;
+}
+
 .cuenta__datos-acceso {
   background-color: rgba(248, 248, 248, 0.35);
   padding: 50px;
@@ -189,7 +197,7 @@ body {
   background: linear-gradient(90deg, rgba(248,248,248,0.969625350140056) 27%, rgba(200,190,180,0.5718662464985995) 67%);
 }
 
-.navbar-nav li{
+.navbar-nav li {
   font-weight: bold;
   margin: 0 11px;
 }
@@ -206,6 +214,20 @@ body {
   max-width: 1950px;
   margin: 0 auto;
   margin-top: auto;
+}
+
+.pie-pagina__iconos {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.pie-pagina__iconos li {
+  list-style-type: none;
+  margin: 0px 15px;
+  }
+
+.bi {
+  color: black;
 }
 
 /* PÁGINA PROPUESTA DE LOS CLIENTES */
