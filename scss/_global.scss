@@ -3,14 +3,14 @@ $offwhite-transparent: rgb(248, 248, 248, 0.35);
 /* FUENTE REGULAR */
 @font-face {
     font-family: "Heebo";
-    src: url("./resources/fonts/static/Heebo-Regular.ttf");
+    src: url("../resources/fonts/static/Heebo-Regular.ttf");
     font-style: normal;
 }
 
 /* FUENTE BOLD */
 @font-face {
     font-family: "Heebo";
-    src: url("./resources/fonts/static/Heebo-Bold.ttf");
+    src: url("../resources/fonts/static/Heebo-Bold.ttf");
     font-weight: bold;
 }
 
@@ -32,13 +32,11 @@ body {
 }
 
 /* ENCABEZADO DEL SITIO */
-.encabezado__contenido {
-    display: flex;
-    justify-content: space-between;
+/*.encabezado__contenido {
     align-items: center;
     background: linear-gradient(90deg, rgba(248,248,248,0.969625350140056) 27%, rgba(200,190,180,0.5718662464985995) 67%);
     margin: 0 auto;
-}
+}*/
 
 .encabezado__contenido-menu {
     list-style-type: none;
