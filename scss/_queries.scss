@@ -2,6 +2,9 @@ $offwhite-transparent: rgb(248, 248, 248, 0.35);
 
 /* QUERIES PARA EL INDEX Y LA PÁGINA DE DISEÑOS / MAX-WIDTH: 768px */
 @media only screen and (max-width: 768px) {
+    .navbar {
+        background: rgb(248, 248, 248);
+      }
     .encabezado__contenido {
         flex-direction: column;
         background: rgb(248, 248, 248);
@@ -50,6 +53,9 @@ $offwhite-transparent: rgb(248, 248, 248, 0.35);
 
 /* QUERIES PARA EL INDEX Y LA PÁGINA DE DISEÑOS / MAX-WIDTH: 576px */
 @media only screen and (max-width: 576px) {
+    .navbar {
+        background: rgb(248, 248, 248);
+      }
     .encabezado__contenido {
         flex-direction: column;
         background: rgb(248, 248, 248);

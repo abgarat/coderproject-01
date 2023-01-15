@@ -32,11 +32,24 @@ body {
 }
 
 /* ENCABEZADO DEL SITIO */
-/*.encabezado__contenido {
-    align-items: center;
+.encabezado {
+    margin-bottom: 8px;
+}
+
+.navbar {
+    width: 100%;
     background: linear-gradient(90deg, rgba(248,248,248,0.969625350140056) 27%, rgba(200,190,180,0.5718662464985995) 67%);
-    margin: 0 auto;
-}*/
+}
+  
+.navbar-nav li{
+    font-weight: bold;
+    margin: 0 11px;
+}
+  
+.navbar-collapse {
+    flex-grow: initial;
+    margin-right: 25px;
+}
 
 .encabezado__contenido-menu {
     list-style-type: none;
