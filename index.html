@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="LOVEWORM es una tienda online especializada en buzos y remeras con diseños propios. También podés enviarnos tu propuesta. ¡Visitanos!" />
-    <title>LOVEWORM | Tienda online</title>
-    <link rel="stylesheet" href="./styles.css" />
     <link rel="shortcut icon" href="./resources/images/favicon.jpg" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>LOVEWORM | Tienda online</title>
 </head>
 
 <body>
@@ -18,6 +19,35 @@
     </style>
 
     <header class="encabezado">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./resources/images/logo.jpg" width="250" alt="Logo de LOVEWORM" /></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/disenos.html">Diseños</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/propuesta.html">Envianos tu propuesta</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/cuenta.html">Cuenta</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <!--
         <div class="encabezado__contenido">
             <div class="encabezado__contenido-logo"><a href="./index.html"><img src="./resources/images/logo.jpg" width="250" alt="Logo de LOVEWORM" /></a></div>
             <nav>
@@ -30,6 +60,7 @@
                 </ul>
             </nav>
         </div>
+    -->
     </header>
 
     <main>
@@ -57,5 +88,7 @@
         <small>2022 | LOVEWORM | Todos los derechos reservados</small>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
 </html>
